@@ -5,9 +5,7 @@
     height: 30px;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
-    background-color: #111;
-   
+    justify-content: space-evenly;
 }
 
 .logo{
@@ -15,7 +13,18 @@ position: fixed;
 left: 20px;
 width: 80px;
 }
-
+.menu{
+    width: 30%;
+    padding-top: 1%;
+    height: 50px;
+    align-self: center;
+}
+.menu ul{
+    color: white;
+    display: flex;
+    list-style-type:none;
+    justify-content: space-evenly;
+}
 .avatar {
     position: fixed;
     right: 20px;
