@@ -11,7 +11,7 @@ function RowPost(props) {
     axios.get(props.url).then((response) => {
       setMovies(response.data.results);
     });
-  }, []);
+  },[]);
 
   const opts = {
     height: "440",
