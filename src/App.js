@@ -10,7 +10,7 @@ function App() {
          <Navbar />
          <Banner />
          <RowPost title='Originals' url={originals}/>
-         <RowPost title='Comedy' isSmall url={ComedyMovies}/>
+         <RowPost title='Comedies' isSmall url={ComedyMovies}/>
          <RowPost title='Horror' isSmall url={HorrorMovies}/>
          <RowPost title='Action' isSmall url={ActionMovies}/>
          <RowPost title='Rommance' isSmall url={RomanceMovies}/>
